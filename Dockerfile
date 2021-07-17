@@ -1,4 +1,4 @@
-FROM python:3.10.0a6-slim
+FROM python:3.10.0b3-slim
 
 # TA-lib is required by the python TA-lib wrapper. This provides analysis.
 COPY lib/ta-lib-0.4.0-src.tar.gz /tmp/ta-lib-0.4.0-src.tar.gz
